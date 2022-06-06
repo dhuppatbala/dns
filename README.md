@@ -1,4 +1,4 @@
-# dns
+# DNS
 
 DNS-Over-TLS server is used to send DNS queries over an encrypted connection, by default, DNS query is sent over the plain text connection. This project is to design and develop a DNS proxy. A DNS proxy is a DNS forwarder that acts as a DNS resolver for client programs but requires an upstream DNS server, Cloudflare DNS server is used in this project as upstream DNS server, to perform the DNS lookup. It receives queries from the clients and forward it to the cloudflare DNS server for the results.
 
